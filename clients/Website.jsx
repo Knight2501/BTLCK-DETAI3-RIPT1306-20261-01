@@ -1,20 +1,20 @@
 import { Route, Routes } from 'react-router-dom';
-import MainLayout from './layouts/MainLayout.jsx';
-import AccountLayout from './layouts/AccountLayout.jsx';
-import AdminLayout from './layouts/AdminLayout.jsx';
-import ProtectedRoute from './components/ProtectedRoute.jsx';
-import HomePage from './pages/HomePage.jsx';
-import RecipeListPage from './pages/RecipeListPage.jsx';
-import RecipeDetailPage from './pages/RecipeDetailPage.jsx';
-import RecipeFormPage from './pages/RecipeFormPage.jsx';
-import LoginPage from './pages/LoginPage.jsx';
-import RegisterPage from './pages/RegisterPage.jsx';
-import MyRecipesPage from './pages/MyRecipesPage.jsx';
-import FavoritesPage from './pages/FavoritesPage.jsx';
-import MealPlannerPage from './pages/MealPlannerPage.jsx';
-import DashboardPage from './pages/admin/DashboardPage.jsx';
-import CategoriesPage from './pages/admin/CategoriesPage.jsx';
-import NotFoundPage from './pages/NotFoundPage.jsx';
+import MainLayout from './src/layouts/MainLayout.jsx';
+import AccountLayout from './src/layouts/AccountLayout.jsx';
+import AdminLayout from './src/layouts/AdminLayout.jsx';
+import ProtectedRoute from './src/components/ProtectedRoute.jsx';
+import HomePage from './src/pages/HomePage.jsx';
+import RecipeListPage from './src/pages/RecipeListPage.jsx';
+import RecipeDetailPage from './src/pages/RecipeDetailPage.jsx';
+import RecipeFormPage from './src/pages/RecipeFormPage.jsx';
+import LoginPage from './src/pages/LoginPage.jsx';
+import RegisterPage from './src/pages/RegisterPage.jsx';
+import MyRecipesPage from './src/pages/MyRecipesPage.jsx';
+import FavoritesPage from './src/pages/FavoritesPage.jsx';
+import MealPlannerPage from './src/pages/MealPlannerPage.jsx';
+import DashboardPage from './src/pages/admin/DashboardPage.jsx';
+import CategoriesPage from './src/pages/admin/CategoriesPage.jsx';
+import NotFoundPage from './src/pages/NotFoundPage.jsx';
 
 const App = () => (
   <Routes>
